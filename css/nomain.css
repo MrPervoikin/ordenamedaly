@@ -1,0 +1,121 @@
+.follow_button {
+    margin: 10px 20px 10px 200px;
+}
+
+.main_search {
+    padding: 0 100% 0 0;
+}
+
+.department {
+    padding: 4px;
+    font-size: 14px;
+    margin: 1% 50% 2% 0;
+    border: 2px solid black;
+}
+
+.user_name {
+    padding: 4px;
+    font-size: 14px;
+    padding: 2px 350px 2px 4px;
+    border: 2px solid black;
+}
+
+.staff {
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.staff_one {
+    margin-left: 20px;
+}
+
+.icon-user {
+    font-size: 40px;
+}
+
+.icon-ordena {
+
+    font-size: 40px;
+}
+
+.tabs-block {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    color: #333;
+}
+
+.tabs-block .tabs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.tabs-block .tabs>div {
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: '..';
+    cursor: pointer;
+}
+
+.tabs-block .tabs>div.--active {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .35);
+    cursor: default;
+}
+
+.tabs-block .content {
+    display: block;
+    width: 100%;
+}
+
+.tabs-block .content>div {
+    display: none;
+    width: 100%;
+}
+
+.tabs-block .content>div.--active {
+    display: block;
+}
+
+.tasks {
+    margin-top: 20px;
+    padding: 1%;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+}
+
+.challenge {
+    display: flex;
+    align-items: center;
+}
+
+
+.challenge_rules {
+    padding: 4px;
+    font-size: 16px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.icon-anchor {
+
+    font-size: 50px;
+}
+
+.btn-secondary {
+    float: right;
+}
+
+.fa-file-pdf {
+    color: black !important;
+}
+
+
